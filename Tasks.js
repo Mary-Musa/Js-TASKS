@@ -1,5 +1,8 @@
 // Global and local variables in JS
 
+
+//Task 1
+
 let platform = "YouTube";// global variable
 
 function contentCreator(name){
