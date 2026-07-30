@@ -8,10 +8,14 @@ Inside the function, create a variable called creatorName and assign it the valu
 Inside the function, print both:
 Platform: YouTube
 Creator: Pendo
+
 Call the function so the program runs.
+
 Expected Output
+
 Platform: YouTube
 Creator: Pendo
+
 Testing Requirement
 
 Run the program and verify that it prints:
