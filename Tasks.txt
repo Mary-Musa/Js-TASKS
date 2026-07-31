@@ -21,7 +21,7 @@ Creator: Pendo
 
 Part 2: Closures
 
-Task 3: Counter Closure
+Task 2: Counter Closure
 Create a function called createCounter.
 Inside it create a variable called count and set it to 0.
 Return another function that:
@@ -36,7 +36,7 @@ Testing Requirement
 Call the returned function .
 
 
-Task 4: Personalized Message Generator
+Task 3: Personalized Message Generator
 Create a function called messageGenerator.
 It should accept a parameter called message.
 The function should return another function that accepts a parameter called username.
@@ -52,7 +52,7 @@ Test the function with .
 
 Part 3: Callback Functions
 
-Task 5: Order Processing
+Task 4: Order Processing
 Create a function called processOrder.
 The function should accept:
 item
@@ -63,8 +63,9 @@ Create another function called orderReady that prints:Order is ready!
 Call processOrder and pass "Pizza" and the callback function.
 
 
-Task 6: Calculation with Callback
-Create a function called calculate.It should accept three parameters:
+Task 5: Calculation with Callback
+Create a function called calculate.
+It should accept three parameters:
 a
 b
 operation (callback function)
