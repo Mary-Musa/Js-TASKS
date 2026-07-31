@@ -1,19 +1,13 @@
-// Global and local variables in JS
+//Task1-global and local scope
 
+let platform = "Youtube";
 
-//Task 1
+function contentCreator(){
 
-let platform = "YouTube";// global variable
+    let creatorName = "Pendo";
 
-function contentCreator(name){
-    let creatorName = name;//local variable
-
-    console.log("platform:",platform);
-    console.log("creator:",creatorName);
+    console.log("Platform:",platform);
+    console.log("Creator:",creatorName);
 }
 
-contentCreator("Pendo");
-contentCreator("Mary");
-
-
-
+contentCreator();

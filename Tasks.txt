@@ -10,15 +10,87 @@ Platform: YouTube
 Creator: Pendo
 
 Call the function so the program runs.
-
 Expected Output
-
 Platform: YouTube
 Creator: Pendo
-
 Testing Requirement
-
 Run the program and verify that it prints:
-
 Platform: YouTube
 Creator: Pendo
+
+
+Part 2: Closures
+
+Task 3: Counter Closure
+Create a function called createCounter.
+Inside it create a variable called count and set it to 0.
+Return another function that:
+increases count by 1
+prints the updated count.
+Example Output
+Count: 1
+Count: 2
+Count: 3 
+Testing Requirement
+Call the returned function .
+
+
+Task 4: Personalized Message Generator
+Create a function called messageGenerator.
+It should accept a parameter called message.
+The function should return another function that accepts a parameter called username.
+The returned function should print:
+<message>, <username>!
+
+Example Output
+Welcome, Amina!
+Welcome, Brian!
+Welcome, David! 
+Testing Requirement
+Test the function with .
+
+Part 3: Callback Functions
+
+Task 5: Order Processing
+Create a function called processOrder.
+The function should accept:
+item
+callback
+Inside the function print:Processing order for <item>
+After printing the message, execute the callback function.
+Create another function called orderReady that prints:Order is ready!
+Call processOrder and pass "Pizza" and the callback function.
+
+
+Task 6: Calculation with Callback
+Create a function called calculate.It should accept three parameters:
+a
+b
+operation (callback function)
+The function should return the result of the operation.Test it using three different operations:
+addition
+subtraction
+multiplication
+Example Output 
+8
+2
+15 
+
+
+
+Submission Requirements
+Students must submit:
+Screenshot of
+Screenshot of
+Output must show
+Incomplete submissions may lose marks.Grading Criteria (Total: 30 Marks)
+Task 1 – Global and Local Scope implemented correctly 5
+Task 2 – Nested Scope / Lexical Scope implemented correctly 5
+Task 3 – Counter Closure implemented correctly 5
+Task 4 – Message Generator Closure implemented correctly 5
+Task 5 – Callback function implementation 5
+Task 6 – Callback calculation implementation 3
+Code runs correctly with required test cases 1
+Submission includes both screenshots (code and output) 
+
+
