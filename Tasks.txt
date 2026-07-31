@@ -27,6 +27,7 @@ Inside it create a variable called count and set it to 0.
 Return another function that:
 increases count by 1
 prints the updated count.
+
 Example Output
 Count: 1
 Count: 2
